@@ -18,7 +18,7 @@ Integrate framework using swift package manager: 'https://github.com/mobi-soft-t
 - Add tag with the new version from dev branch.
 - Merge dev branch into master.
 
-#Update woow-cocoapods-specs repo
+#Update cocoapods-specs repo
 
 - Clone CocoapodsSpecs git repo
 - Go to MSAlertKit and create a folder with the name being the latest tag name (version) you created for the MSAlertKit repo above.
