@@ -6,7 +6,11 @@ This framework contains custom alert. It may be integrated in other projects.
 - language: Swift
 
 # Instalation
-Integrate framework using cocoapods: pod 'MSAlert'
+Integrate framework using cocoapods:
+Add specs source path: `source 'https://github.com/mobi-soft-tech/CocoapodsSpecs.git'`
+
+pod 'MSAlert'
+
 Integrate framework using swift package manager: 'https://github.com/mobi-soft-tech/Alert'
 
 # Create a new version
