@@ -261,6 +261,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -311,6 +312,7 @@ enum MSAlertControllerStyle : NSInteger;
 
 SWIFT_CLASS("_TtC7MSAlert17MSAlertController")
 @interface MSAlertController : UIViewController
+@property (nonatomic, readonly, copy) NSArray<MSAlertAction *> * _Nonnull actions;
 @property (nonatomic, readonly, strong) UIPopoverPresentationController * _Nullable popoverPresentationController;
 - (nonnull instancetype)initWithTitle:(NSString * _Nullable)title message:(NSString * _Nullable)message statusImage:(UIImage * _Nullable)statusImage preferredStyle:(enum MSAlertControllerStyle)preferredStyle OBJC_DESIGNATED_INITIALIZER;
 - (void)addAction:(MSAlertAction * _Nonnull)action;
@@ -650,6 +652,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -700,6 +703,7 @@ enum MSAlertControllerStyle : NSInteger;
 
 SWIFT_CLASS("_TtC7MSAlert17MSAlertController")
 @interface MSAlertController : UIViewController
+@property (nonatomic, readonly, copy) NSArray<MSAlertAction *> * _Nonnull actions;
 @property (nonatomic, readonly, strong) UIPopoverPresentationController * _Nullable popoverPresentationController;
 - (nonnull instancetype)initWithTitle:(NSString * _Nullable)title message:(NSString * _Nullable)message statusImage:(UIImage * _Nullable)statusImage preferredStyle:(enum MSAlertControllerStyle)preferredStyle OBJC_DESIGNATED_INITIALIZER;
 - (void)addAction:(MSAlertAction * _Nonnull)action;

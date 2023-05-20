@@ -49,7 +49,7 @@ import _StringProcessing
   @objc public init(title: Swift.String?, style: MSAlert.MSAlertAction.Style, icon: UIKit.UIImage? = nil, handler: MSAlert.MSAlertAction.Handler? = nil)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class MSAlertController : UIKit.UIViewController {
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) final public class MSAlertController : UIKit.UIViewController {
   @objc(MSAlertControllerStyle) public enum Style : Swift.Int, @unchecked Swift.Sendable {
     case actionSheet = 0
     case alert = 1
@@ -59,22 +59,25 @@ import _StringProcessing
       get
     }
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var popoverPresentationController: UIKit.UIPopoverPresentationController? {
+  @objc @_Concurrency.MainActor(unsafe) final public var actions: [MSAlert.MSAlertAction] {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var popoverPresentationController: UIKit.UIPopoverPresentationController? {
     @objc get
   }
   @objc @_Concurrency.MainActor(unsafe) public init(title: Swift.String? = nil, message: Swift.String? = nil, statusImage: UIKit.UIImage? = nil, preferredStyle: MSAlert.MSAlertController.Style)
-  @objc @_Concurrency.MainActor(unsafe) public func addAction(_ action: MSAlert.MSAlertAction)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func willTransition(to newCollection: UIKit.UITraitCollection, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @objc @_Concurrency.MainActor(unsafe) final public func addAction(_ action: MSAlert.MSAlertAction)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override final public func willTransition(to newCollection: UIKit.UITraitCollection, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @objc deinit
 }
 extension MSAlert.MSAlertController : UIKit.UIAdaptivePresentationControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func presentationControllerDidDismiss(_ presentationController: UIKit.UIPresentationController)
+  @_Concurrency.MainActor(unsafe) @objc final public func presentationControllerDidDismiss(_ presentationController: UIKit.UIPresentationController)
 }
 extension MSAlert.MSAlertController : UIKit.UIPopoverPresentationControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func popoverPresentationControllerDidDismissPopover(_ popoverPresentationController: UIKit.UIPopoverPresentationController)
+  @_Concurrency.MainActor(unsafe) @objc final public func popoverPresentationControllerDidDismissPopover(_ popoverPresentationController: UIKit.UIPopoverPresentationController)
 }
 extension MSAlert.MSAlertAction.Style : Swift.Equatable {}
 extension MSAlert.MSAlertAction.Style : Swift.Hashable {}

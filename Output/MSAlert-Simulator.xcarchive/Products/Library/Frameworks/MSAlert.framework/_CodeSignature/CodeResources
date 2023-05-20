@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MSAlert-Swift.h</key>
 		<data>
-		zLqGsVfHhNAjSpiXgvknbcJUhNU=
+		3Z/OXN9iGdfh9NBEtGBBd2bKnTo=
 		</data>
 		<key>Headers/MSAlert.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/MSAlert.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Gm5SLqEizhx/rWQj2s6oSKSfHds=
+		PPbvxsPVrt6d8dHt7Ha8m/gC+u0=
 		</data>
 		<key>Modules/MSAlert.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ued7W077ZzO8IjbMQrArftrpgbo=
+		ez4xFqEGuV3ArXQkEB0genuEMm4=
 		</data>
 		<key>Modules/MSAlert.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/MSAlert.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ued7W077ZzO8IjbMQrArftrpgbo=
+		ez4xFqEGuV3ArXQkEB0genuEMm4=
 		</data>
 		<key>Modules/MSAlert.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+Sc9LeBewy0AoYNSuuerLcg5xKc=
+		GdHHO3G6ZOei+br9gOsaSoRmrik=
 		</data>
 		<key>Modules/MSAlert.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Gm5SLqEizhx/rWQj2s6oSKSfHds=
+		PPbvxsPVrt6d8dHt7Ha8m/gC+u0=
 		</data>
 		<key>Modules/MSAlert.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hz0bZfI4mhCVPkUzUSjfn/PCiHM=
+		KLqQnNk4MiMAPaAwrByT8292VnE=
 		</data>
 		<key>Modules/MSAlert.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/MSAlert.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hz0bZfI4mhCVPkUzUSjfn/PCiHM=
+		KLqQnNk4MiMAPaAwrByT8292VnE=
 		</data>
 		<key>Modules/MSAlert.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GLL3pqDHscQfZ5QYpT/QlhWGK4o=
+		TsffuvIITRSC8aU9NCpCayWU0+k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQvGdwTpE/Y5eLH/GFT0aLv15gvKZQtykmoDXWGb+5Y=
+			dhYPPxafnWMtuHbcuTT8p3ndLLvU7yjA18FlNlIEV9c=
 			</data>
 		</dict>
 		<key>Headers/MSAlert.h</key>
@@ -92,14 +92,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+aYq6DhYAQLN9N1XD2yv3IkxMlF6YqwDuJ11p/40bjg=
+			WJyIgTom2RVaI3o98pknYpOgQY67zA39o8OmSzbXxpg=
 			</data>
 		</dict>
 		<key>Modules/MSAlert.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V4VncKJKva7pcAcaEmp7eonVLw+GwBoSrQNGZ5YjFb0=
+			CcgRLxf95F8weh0+jMwI36G9U5QYfXNaEQlC9EVQGks=
 			</data>
 		</dict>
 		<key>Modules/MSAlert.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -113,28 +113,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V4VncKJKva7pcAcaEmp7eonVLw+GwBoSrQNGZ5YjFb0=
+			CcgRLxf95F8weh0+jMwI36G9U5QYfXNaEQlC9EVQGks=
 			</data>
 		</dict>
 		<key>Modules/MSAlert.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nl5oxX9l/zf4y99wafmy/is7xmqwkxc6eN4gpyoeCQU=
+			mWWeBMfd7kp75nq+MkHiECSXep2JxGYF3sK9CDI186o=
 			</data>
 		</dict>
 		<key>Modules/MSAlert.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+aYq6DhYAQLN9N1XD2yv3IkxMlF6YqwDuJ11p/40bjg=
+			WJyIgTom2RVaI3o98pknYpOgQY67zA39o8OmSzbXxpg=
 			</data>
 		</dict>
 		<key>Modules/MSAlert.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			joYuBO1810lMgfoHvWy9blu1nSncqRndIw8bpXrmMEA=
+			o56KTo3VqLEBpJ3JVBDZzA8OvdBNm1p83rHpD+GWxj4=
 			</data>
 		</dict>
 		<key>Modules/MSAlert.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -148,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			joYuBO1810lMgfoHvWy9blu1nSncqRndIw8bpXrmMEA=
+			o56KTo3VqLEBpJ3JVBDZzA8OvdBNm1p83rHpD+GWxj4=
 			</data>
 		</dict>
 		<key>Modules/MSAlert.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+V7wTzDoGu0CBB2WDv501RnMUakrSDkf640wyj/9Bgo=
+			Yb4M/VKvML5Ng1EQrgL8T1zB9J0TYh3beMvaET3KZ/s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
