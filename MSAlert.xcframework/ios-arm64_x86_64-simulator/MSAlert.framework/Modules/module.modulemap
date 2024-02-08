@@ -1,0 +1,11 @@
+framework module MSAlert {
+  umbrella header "MSAlert.h"
+
+  export *
+  module * { export * }
+}
+
+module MSAlert.Swift {
+  header "MSAlert-Swift.h"
+  requires objc
+}
