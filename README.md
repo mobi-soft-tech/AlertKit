@@ -2,7 +2,7 @@
 This framework contains custom alert. It may be integrated in other projects.
 
 # Requirements
-- minimum iOS version: 14.0
+- minimum iOS version: 15.0
 - language: Swift
 
 # Instalation
