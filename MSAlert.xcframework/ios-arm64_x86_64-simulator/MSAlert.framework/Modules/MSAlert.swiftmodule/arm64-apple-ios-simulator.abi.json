@@ -4116,17 +4116,31 @@
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8514,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8796,
+      "offset": 8844,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8800,
+      "offset": 8848,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8969,
+      "length": 3,
+      "value": "0.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
@@ -4138,378 +4152,378 @@
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 10103,
+      "offset": 10228,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 10158,
+      "offset": 10283,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 10214,
+      "offset": 10339,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 10266,
+      "offset": 10391,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 10346,
+      "offset": 10471,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10481,
+      "offset": 10606,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10492,
+      "offset": 10617,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 10542,
+      "offset": 10667,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 10592,
+      "offset": 10717,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 10731,
+      "offset": 10856,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 10738,
+      "offset": 10863,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 10919,
+      "offset": 11044,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 10983,
+      "offset": 11108,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 11071,
+      "offset": 11196,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 11078,
+      "offset": 11203,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 11139,
+      "offset": 11264,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 11921,
+      "offset": 12046,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 11928,
+      "offset": 12053,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13693,
+      "offset": 13818,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 13880,
+      "offset": 14005,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14112,
+      "offset": 14237,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14442,
+      "offset": 14567,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 14518,
+      "offset": 14643,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 14570,
+      "offset": 14695,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15132,
+      "offset": 15257,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15184,
+      "offset": 15309,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15236,
+      "offset": 15361,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15296,
+      "offset": 15421,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15352,
+      "offset": 15477,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15407,
+      "offset": 15532,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15463,
+      "offset": 15588,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15520,
+      "offset": 15645,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 15576,
+      "offset": 15701,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 15631,
+      "offset": 15756,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15833,
+      "offset": 15958,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15893,
+      "offset": 16018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16035,
+      "offset": 16160,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16095,
+      "offset": 16220,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16155,
+      "offset": 16280,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16216,
+      "offset": 16341,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 16275,
+      "offset": 16400,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 16335,
+      "offset": 16460,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16411,
+      "offset": 16536,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16472,
+      "offset": 16597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16528,
+      "offset": 16653,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16589,
+      "offset": 16714,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "FloatLiteral",
-      "offset": 16673,
+      "offset": 16798,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16769,
+      "offset": 16894,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16830,
+      "offset": 16955,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16925,
+      "offset": 17050,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16931,
+      "offset": 17056,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16964,
+      "offset": 17089,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17009,
+      "offset": 17134,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17968,
+      "offset": 18093,
       "length": 4,
       "value": "true"
     }

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name             = "MSAlert"
-    spec.version          = "1.0.1"
+    spec.version          = "1.0.2"
     spec.summary          = "MSAlert"
     spec.homepage         = "https://github.com/mobi-soft-tech/AlertKit"
     spec.author           = { "Shahen Antonyan" => "shahenantonyan@gmail.com" }
