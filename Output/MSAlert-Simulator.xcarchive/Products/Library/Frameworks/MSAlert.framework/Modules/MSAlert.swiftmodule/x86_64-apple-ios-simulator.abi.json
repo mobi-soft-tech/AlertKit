@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "MSAlert",
+    "printedName": "MSAlert",
     "children": [
       {
         "kind": "Import",
@@ -167,6 +167,20 @@
               "ObjectiveC.NSObject"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -543,6 +557,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -609,6 +637,7 @@
             "mangledName": "$s7MSAlert15MSConfigurationC15backgroundColorAC0D0Cvp",
             "moduleName": "MSAlert",
             "declAttributes": [
+              "Custom",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -701,6 +730,7 @@
             "mangledName": "$s7MSAlert15MSConfigurationC10titleColorAC0D0Cvp",
             "moduleName": "MSAlert",
             "declAttributes": [
+              "Custom",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -793,6 +823,7 @@
             "mangledName": "$s7MSAlert15MSConfigurationC12messageColorAC0D0Cvp",
             "moduleName": "MSAlert",
             "declAttributes": [
+              "Custom",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -885,6 +916,7 @@
             "mangledName": "$s7MSAlert15MSConfigurationC13defaultActionAC6ButtonCvp",
             "moduleName": "MSAlert",
             "declAttributes": [
+              "Custom",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -977,6 +1009,7 @@
             "mangledName": "$s7MSAlert15MSConfigurationC12cancelActionAC6ButtonCvp",
             "moduleName": "MSAlert",
             "declAttributes": [
+              "Custom",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -1069,6 +1102,7 @@
             "mangledName": "$s7MSAlert15MSConfigurationC17destructiveActionAC6ButtonCvp",
             "moduleName": "MSAlert",
             "declAttributes": [
+              "Custom",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -1165,6 +1199,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Custom",
               "Override",
               "AccessControl"
             ],
@@ -1191,6 +1226,7 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -1251,6 +1287,7 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -1357,6 +1394,7 @@
         "moduleName": "MSAlert",
         "declAttributes": [
           "AccessControl",
+          "Custom",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -1365,6 +1403,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1413,6 +1465,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1645,6 +1704,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1726,6 +1799,7 @@
             "moduleName": "MSAlert",
             "objc_name": "initWithTitle:style:",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -1795,6 +1869,7 @@
             "moduleName": "MSAlert",
             "objc_name": "initWithTitle:style:handler:",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -1844,6 +1919,7 @@
             "moduleName": "MSAlert",
             "objc_name": "initWithTitle:style:theme:",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -1919,6 +1995,7 @@
             "moduleName": "MSAlert",
             "objc_name": "initWithTitle:style:theme:handler:",
             "declAttributes": [
+              "Custom",
               "AccessControl",
               "ObjC"
             ],
@@ -1946,6 +2023,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Custom",
               "Override"
             ],
             "init_kind": "Designated"
@@ -2156,6 +2234,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2212,6 +2304,7 @@
         "moduleName": "MSAlert",
         "declAttributes": [
           "AccessControl",
+          "Custom",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -2219,6 +2312,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2267,6 +2374,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2458,6 +2572,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2528,6 +2656,7 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "SetterAccess",
@@ -2598,6 +2727,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2658,6 +2788,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2713,6 +2844,7 @@
             "moduleName": "MSAlert",
             "objc_name": "initWithPreferredStyle:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Convenience",
@@ -2759,6 +2891,7 @@
             "moduleName": "MSAlert",
             "objc_name": "initWithTitle:preferredStyle:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Convenience",
@@ -2820,6 +2953,7 @@
             "moduleName": "MSAlert",
             "objc_name": "initWithTitle:message:preferredStyle:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Convenience",
@@ -2896,6 +3030,7 @@
             "moduleName": "MSAlert",
             "objc_name": "initWithTitle:message:statusImage:preferredStyle:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2925,6 +3060,7 @@
             "moduleName": "MSAlert",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2951,6 +3087,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2977,6 +3114,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3002,7 +3140,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerTransitionCoordinator",
-                "printedName": "UIKit.UIViewControllerTransitionCoordinator",
+                "printedName": "any UIKit.UIViewControllerTransitionCoordinator",
                 "usr": "c:objc(pl)UIViewControllerTransitionCoordinator"
               }
             ],
@@ -3015,6 +3153,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3040,7 +3179,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "UIViewControllerTransitionCoordinator",
-                "printedName": "UIKit.UIViewControllerTransitionCoordinator",
+                "printedName": "any UIKit.UIViewControllerTransitionCoordinator",
                 "usr": "c:objc(pl)UIViewControllerTransitionCoordinator"
               }
             ],
@@ -3053,6 +3192,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3109,6 +3249,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3139,6 +3280,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3170,6 +3312,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3182,6 +3325,7 @@
         "mangledName": "$s7MSAlert0A10ControllerC",
         "moduleName": "MSAlert",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "AccessControl",
@@ -3195,6 +3339,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3275,403 +3433,11 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1031,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1720,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1770,
-      "length": 4,
-      "value": "18.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1815,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1891,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1895,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "FloatLiteral",
-      "offset": 2171,
-      "length": 4,
-      "value": "18.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "StringLiteral",
-      "offset": 2664,
-      "length": 32,
-      "value": "\"Error loading \""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "StringLiteral",
-      "offset": 2686,
-      "length": 4,
-      "value": "\" from nib\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2795,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2898,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2912,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3006,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3020,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3124,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3138,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3238,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/ActionView\/MSActionView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3252,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
       "kind": "FloatLiteral",
       "offset": 347,
       "length": 3,
       "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 612,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "FloatLiteral",
-      "offset": 637,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2618,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "FloatLiteral",
-      "offset": 2688,
-      "length": 4,
-      "value": "1.15"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "FloatLiteral",
-      "offset": 2697,
-      "length": 4,
-      "value": "1.15"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2880,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3546,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4169,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "FloatLiteral",
-      "offset": 4467,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4575,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5379,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAnimator.swift",
-      "kind": "StringLiteral",
-      "offset": 169,
-      "length": 10,
-      "value": "\"MSAlert.MSAnimator\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4506,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4553,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4566,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4571,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4583,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4587,
-      "length": 3,
-      "value": "0xF"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4594,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4605,
-      "length": 3,
-      "value": "0xF"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4612,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4629,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4676,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4688,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4699,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4703,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4715,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4734,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4789,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4800,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4805,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4818,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4822,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4834,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4945,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4970,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4994,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/Extensions\/UIColor+Ext.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5019,
-      "length": 3,
-      "value": "255"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAlertPresentationController.swift",
@@ -3695,228 +3461,25 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAlertPresentationController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1128,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAlertPresentationController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1329,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/Transition\/MSAlertPresentationController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1430,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 245,
-      "length": 5,
-      "value": "\"MSAlert.Color\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 538,
-      "length": 6,
-      "value": "\"MSAlert.Button\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1332,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1369,
-      "length": 9,
-      "value": "\"#202020\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1439,
-      "length": 9,
-      "value": "\"#000000\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1476,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1548,
-      "length": 9,
-      "value": "\"#595959\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1585,
-      "length": 9,
-      "value": "\"#F0F0F0\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1678,
-      "length": 9,
-      "value": "\"#000000\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1715,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1898,
-      "length": 9,
-      "value": "\"#DFDFDF\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1935,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2028,
-      "length": 9,
-      "value": "\"#000000\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2065,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2246,
-      "length": 9,
-      "value": "\"#DFDFDF\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2283,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2381,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2418,
-      "length": 9,
-      "value": "\"#000000\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2520,
-      "length": 9,
-      "value": "\"#394D68\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/MSConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2557,
-      "length": 9,
-      "value": "\"#C8C8C8\""
-    },
-    {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 458,
+      "offset": 480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 473,
+      "offset": 495,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 493,
+      "offset": 515,
       "length": 11,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 458,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 473,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 493,
-      "length": 11,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertAction.swift",
-      "kind": "StringLiteral",
-      "offset": 268,
-      "length": 13,
-      "value": "\"MSAlert.MSAlertAction\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 414,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 437,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
@@ -4004,528 +3567,10 @@
     },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3908,
-      "length": 4,
-      "value": "40.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3959,
-      "length": 4,
-      "value": "60.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
       "kind": "Array",
       "offset": 4051,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "StringLiteral",
-      "offset": 5218,
-      "length": 19,
-      "value": "\"MSAlertController\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "StringLiteral",
-      "offset": 5853,
-      "length": 89,
-      "value": "\"MSAlertController can only have one action with a style of 'MSAlertAction.Style.Cancel'\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "StringLiteral",
-      "offset": 6088,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7051,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 7055,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7554,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7669,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 7829,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7881,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 8047,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8098,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8386,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8411,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 8514,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8844,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8848,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 8969,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "StringLiteral",
-      "offset": 264,
-      "length": 17,
-      "value": "\"MSAlert.MSAlertController\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 10228,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 10283,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 10339,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 10391,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 10471,
-      "length": 4,
-      "value": "12.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10606,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10617,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 10667,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 10717,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 10856,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 10863,
-      "length": 4,
-      "value": "20.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11044,
-      "length": 4,
-      "value": "20.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11108,
-      "length": 4,
-      "value": "20.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11196,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11203,
-      "length": 4,
-      "value": "20.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11264,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 12046,
-      "length": 4,
-      "value": "20.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 12053,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13818,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 14005,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14237,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14567,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 14643,
-      "length": 4,
-      "value": "60.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 14695,
-      "length": 4,
-      "value": "12.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15257,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15309,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15361,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15421,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15477,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15532,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15588,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15645,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 15701,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 15756,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15958,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16018,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16160,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16220,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16280,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16341,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 16400,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 16460,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16536,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16597,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16653,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16714,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "FloatLiteral",
-      "offset": 16798,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16894,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16955,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17050,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17056,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17089,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17134,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/Alert\/MSAlert\/MSAlert\/Classes\/UI\/MSAlertController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18093,
-      "length": 4,
-      "value": "true"
     }
   ]
 }

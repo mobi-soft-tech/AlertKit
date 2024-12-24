@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MSAlert
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name MSAlert
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 @_exported import MSAlert
 import Swift
@@ -9,7 +9,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @objc public class MSConfiguration : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor public class MSConfiguration : ObjectiveC.NSObject {
   @objc(ColorConfiguration) public class Color : ObjectiveC.NSObject {
     @objc public init(light: UIKit.UIColor, dark: UIKit.UIColor)
     @objc deinit
@@ -20,18 +20,18 @@ import _SwiftConcurrencyShims
     @objc public var borderColor: MSAlert.MSConfiguration.Color
     @objc deinit
   }
-  @objc public var backgroundColor: MSAlert.MSConfiguration.Color
-  @objc public var titleColor: MSAlert.MSConfiguration.Color
-  @objc public var messageColor: MSAlert.MSConfiguration.Color
-  @objc public var defaultAction: MSAlert.MSConfiguration.Button
-  @objc public var cancelAction: MSAlert.MSConfiguration.Button
-  @objc public var destructiveAction: MSAlert.MSConfiguration.Button
-  @objc override dynamic public init()
-  @objc public static let `default`: MSAlert.MSConfiguration
-  @objc public static var custom: MSAlert.MSConfiguration?
+  @objc @_Concurrency.MainActor public var backgroundColor: MSAlert.MSConfiguration.Color
+  @objc @_Concurrency.MainActor public var titleColor: MSAlert.MSConfiguration.Color
+  @objc @_Concurrency.MainActor public var messageColor: MSAlert.MSConfiguration.Color
+  @objc @_Concurrency.MainActor public var defaultAction: MSAlert.MSConfiguration.Button
+  @objc @_Concurrency.MainActor public var cancelAction: MSAlert.MSConfiguration.Button
+  @objc @_Concurrency.MainActor public var destructiveAction: MSAlert.MSConfiguration.Button
+  @_Concurrency.MainActor @objc override dynamic public init()
+  @objc @_Concurrency.MainActor public static let `default`: MSAlert.MSConfiguration
+  @objc @_Concurrency.MainActor public static var custom: MSAlert.MSConfiguration?
   @objc deinit
 }
-@objc public class MSAlertAction : ObjectiveC.NSObject {
+@objc @_Concurrency.MainActor public class MSAlertAction : ObjectiveC.NSObject {
   public typealias Handler = ((MSAlert.MSAlertAction) -> Swift.Void)
   @objc(MSAlertActionStyle) public enum Style : Swift.Int, @unchecked Swift.Sendable {
     case `default` = 0
@@ -43,10 +43,10 @@ import _SwiftConcurrencyShims
       get
     }
   }
-  @objc public init(title: Swift.String?, style: MSAlert.MSAlertAction.Style)
-  @objc public init(title: Swift.String?, style: MSAlert.MSAlertAction.Style, handler: MSAlert.MSAlertAction.Handler?)
-  @objc public init(title: Swift.String?, style: MSAlert.MSAlertAction.Style, theme: MSAlert.MSAlertAction.Theme)
-  @objc public init(title: Swift.String?, style: MSAlert.MSAlertAction.Style, theme: MSAlert.MSAlertAction.Theme, handler: MSAlert.MSAlertAction.Handler?)
+  @objc @_Concurrency.MainActor public init(title: Swift.String?, style: MSAlert.MSAlertAction.Style)
+  @objc @_Concurrency.MainActor public init(title: Swift.String?, style: MSAlert.MSAlertAction.Style, handler: MSAlert.MSAlertAction.Handler?)
+  @objc @_Concurrency.MainActor public init(title: Swift.String?, style: MSAlert.MSAlertAction.Style, theme: MSAlert.MSAlertAction.Theme)
+  @objc @_Concurrency.MainActor public init(title: Swift.String?, style: MSAlert.MSAlertAction.Style, theme: MSAlert.MSAlertAction.Theme, handler: MSAlert.MSAlertAction.Handler?)
   @objc deinit
 }
 @objc extension MSAlert.MSAlertAction {
@@ -58,7 +58,7 @@ import _SwiftConcurrencyShims
     @objc deinit
   }
 }
-@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) final public class MSAlertController : UIKit.UIViewController {
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency final public class MSAlertController : UIKit.UIViewController {
   @objc(MSAlertControllerStyle) public enum Style : Swift.Int, @unchecked Swift.Sendable {
     case actionSheet = 0
     case alert = 1
@@ -68,32 +68,34 @@ import _SwiftConcurrencyShims
       get
     }
   }
-  @objc @_Concurrency.MainActor(unsafe) final public var actions: [MSAlert.MSAlertAction] {
+  @objc @_Concurrency.MainActor @preconcurrency final public var actions: [MSAlert.MSAlertAction] {
     get
   }
-  @_Concurrency.MainActor(unsafe) @objc override final public var popoverPresentationController: UIKit.UIPopoverPresentationController? {
+  @_Concurrency.MainActor @preconcurrency @objc override final public var popoverPresentationController: UIKit.UIPopoverPresentationController? {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+  @_Concurrency.MainActor @preconcurrency @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) convenience public init(preferredStyle: MSAlert.MSAlertController.Style)
-  @objc @_Concurrency.MainActor(unsafe) convenience public init(title: Swift.String? = nil, preferredStyle: MSAlert.MSAlertController.Style)
-  @objc @_Concurrency.MainActor(unsafe) convenience public init(title: Swift.String? = nil, message: Swift.String? = nil, preferredStyle: MSAlert.MSAlertController.Style)
-  @objc @_Concurrency.MainActor(unsafe) public init(title: Swift.String? = nil, message: Swift.String? = nil, statusImage: UIKit.UIImage? = nil, preferredStyle: MSAlert.MSAlertController.Style)
-  @objc @_Concurrency.MainActor(unsafe) final public func addAction(_ action: MSAlert.MSAlertAction)
-  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override final public func willTransition(to newCollection: UIKit.UITraitCollection, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
-  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(preferredStyle: MSAlert.MSAlertController.Style)
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(title: Swift.String? = nil, preferredStyle: MSAlert.MSAlertController.Style)
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(title: Swift.String? = nil, message: Swift.String? = nil, preferredStyle: MSAlert.MSAlertController.Style)
+  @objc @_Concurrency.MainActor @preconcurrency public init(title: Swift.String? = nil, message: Swift.String? = nil, statusImage: UIKit.UIImage? = nil, preferredStyle: MSAlert.MSAlertController.Style)
+  @objc @_Concurrency.MainActor @preconcurrency final public func addAction(_ action: MSAlert.MSAlertAction)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func willTransition(to newCollection: UIKit.UITraitCollection, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @objc deinit
 }
 extension MSAlert.MSAlertController : UIKit.UIAdaptivePresentationControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc final public func presentationControllerDidDismiss(_ presentationController: UIKit.UIPresentationController)
+  @_Concurrency.MainActor @preconcurrency @objc final public func presentationControllerDidDismiss(_ presentationController: UIKit.UIPresentationController)
 }
 extension MSAlert.MSAlertController : UIKit.UIPopoverPresentationControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc final public func popoverPresentationControllerDidDismissPopover(_ popoverPresentationController: UIKit.UIPopoverPresentationController)
+  @_Concurrency.MainActor @preconcurrency @objc final public func popoverPresentationControllerDidDismissPopover(_ popoverPresentationController: UIKit.UIPopoverPresentationController)
 }
+extension MSAlert.MSConfiguration : Swift.Sendable {}
+extension MSAlert.MSAlertAction : Swift.Sendable {}
 extension MSAlert.MSAlertAction.Style : Swift.Equatable {}
 extension MSAlert.MSAlertAction.Style : Swift.Hashable {}
 extension MSAlert.MSAlertAction.Style : Swift.RawRepresentable {}
